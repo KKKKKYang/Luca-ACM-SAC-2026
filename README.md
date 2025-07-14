@@ -1,5 +1,5 @@
 # fjsp-drl
-Implementation of the IEEE TII paper [Flexible Job Shop Scheduling via Graph Neural Network and Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9826438). *IEEE Transactions on Industrial Informatics*, 2022.
+<!-- Implementation of the IEEE TII paper [Flexible Job Shop Scheduling via Graph Neural Network and Deep Reinforcement Learning](https://ieeexplore.ieee.org/document/9826438). *IEEE Transactions on Industrial Informatics*, 2022.
 
 ```
 @ARTICLE{9826438,  
@@ -12,18 +12,88 @@ Implementation of the IEEE TII paper [Flexible Job Shop Scheduling via Graph Neu
    pages={1600-1610},  
    doi={10.1109/TII.2022.3189725}
  }
-```
+``` -->
 
 ## Get Started
 
 ### Installation
 
-* python $\ge$ 3.6.13
+<!-- * python $\ge$ 3.6.13
 * pytorch $\ge$ 1.8.1
 * gym $\ge$ 0.18.0
 * numpy $\ge$ 1.19.5
 * pandas $\ge$ 1.1.5
-* visdom $\ge$ 0.1.8.9
+* visdom $\ge$ 0.1.8.9 -->
+
+
+asttokens==3.0.0
+backcall==0.2.0
+certifi==2025.4.26
+charset-normalizer==3.4.2
+cloudpickle==1.6.0
+colorama==0.4.6
+comm==0.2.2
+contourpy==1.1.1
+cycler==0.12.1
+debugpy==1.8.14
+decorator==5.2.1
+et-xmlfile==2.0.0
+executing==2.2.0
+filelock==3.16.1
+fonttools==4.57.0
+fsspec==2025.3.0
+gym==0.18.3
+idna==3.10
+importlib-metadata==8.5.0
+importlib-resources==6.4.5
+ipykernel==6.29.5
+ipython==8.12.3
+jedi==0.19.2
+jinja2==3.1.6
+jsonpatch==1.33
+jsonpointer==3.0.0
+jupyter-client==8.6.3
+jupyter-core==5.7.2
+kiwisolver==1.4.7
+MarkupSafe==2.1.5
+matplotlib==3.7.5
+matplotlib-inline==0.1.7
+mpmath==1.3.0
+nest-asyncio==1.6.0
+networkx==3.1
+numpy==1.24.4
+openpyxl==3.1.5
+packaging==25.0
+pandas==2.0.3
+parso==0.8.4
+pickleshare==0.7.5
+Pillow==8.2.0
+platformdirs==4.3.6
+prompt-toolkit==3.0.51
+psutil==7.0.0
+pure-eval==0.2.3
+pyglet==1.5.15
+pygments==2.19.1
+pyparsing==3.1.4
+python-dateutil==2.9.0.post0
+pytz==2025.2
+pyzmq==26.4.0
+requests==2.32.3
+scipy==1.10.1
+six==1.17.0
+stack-data==0.6.3
+sympy==1.13.3
+torch==2.4.1
+tornado==6.4.2
+tqdm==4.67.1
+traitlets==5.14.3
+typing-extensions==4.13.2
+tzdata==2025.2
+urllib3==2.2.3
+visdom==0.2.4
+wcwidth==0.2.13
+websocket-client==1.8.0
+zipp==3.20.2
 
 Note that pynvml is used in ```test.py``` to avoid excessive memory usage of GPU, please modify the code when using CPU.
 
