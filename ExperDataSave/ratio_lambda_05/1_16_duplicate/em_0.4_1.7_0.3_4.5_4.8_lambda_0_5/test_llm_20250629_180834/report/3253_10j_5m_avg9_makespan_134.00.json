@@ -1,0 +1,391 @@
+{
+    "env_name": "3253_10j_5m_avg9",
+    "makespan": 134.0,
+    "schedule": [
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 69.0,
+            "End Time": 82.0,
+            "Job ID": 0
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 82.0,
+            "End Time": 86.0,
+            "Job ID": 0
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 91.0,
+            "End Time": 102.0,
+            "Job ID": 0
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 102.0,
+            "End Time": 119.0,
+            "Job ID": 0
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 119.0,
+            "End Time": 134.0,
+            "Job ID": 0
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 0.0,
+            "End Time": 1.0,
+            "Job ID": 1
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 44.0,
+            "End Time": 60.0,
+            "Job ID": 1
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 60.0,
+            "End Time": 78.0,
+            "Job ID": 1
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 78.0,
+            "End Time": 91.0,
+            "Job ID": 1
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 91.0,
+            "End Time": 100.0,
+            "Job ID": 1
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 0.0,
+            "End Time": 1.0,
+            "Job ID": 2
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 1.0,
+            "End Time": 16.0,
+            "Job ID": 2
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 22.0,
+            "End Time": 35.0,
+            "Job ID": 2
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 35.0,
+            "End Time": 39.0,
+            "Job ID": 2
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 47.0,
+            "End Time": 53.0,
+            "Job ID": 2
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 62.0,
+            "End Time": 72.0,
+            "Job ID": 2
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 4.0,
+            "End Time": 22.0,
+            "Job ID": 3
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 33.0,
+            "End Time": 36.0,
+            "Job ID": 3
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 36.0,
+            "End Time": 42.0,
+            "Job ID": 3
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 42.0,
+            "End Time": 48.0,
+            "Job ID": 3
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 48.0,
+            "End Time": 61.0,
+            "Job ID": 3
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 88.0,
+            "End Time": 90.0,
+            "Job ID": 3
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 1.0,
+            "End Time": 12.0,
+            "Job ID": 4
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 12.0,
+            "End Time": 23.0,
+            "Job ID": 4
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 23.0,
+            "End Time": 25.0,
+            "Job ID": 4
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 25.0,
+            "End Time": 35.0,
+            "Job ID": 4
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 35.0,
+            "End Time": 44.0,
+            "Job ID": 4
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 0.0,
+            "End Time": 6.0,
+            "Job ID": 5
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 49.0,
+            "End Time": 69.0,
+            "Job ID": 5
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 69.0,
+            "End Time": 76.0,
+            "Job ID": 5
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 76.0,
+            "End Time": 91.0,
+            "Job ID": 5
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 6.0,
+            "End Time": 26.0,
+            "Job ID": 6
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 30.0,
+            "End Time": 32.0,
+            "Job ID": 6
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 78.0,
+            "End Time": 92.0,
+            "Job ID": 6
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 97.0,
+            "End Time": 101.0,
+            "Job ID": 6
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 101.0,
+            "End Time": 115.0,
+            "Job ID": 6
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 115.0,
+            "End Time": 118.0,
+            "Job ID": 6
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 32.0,
+            "End Time": 44.0,
+            "Job ID": 7
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 44.0,
+            "End Time": 47.0,
+            "Job ID": 7
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 59.0,
+            "End Time": 60.0,
+            "Job ID": 7
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 60.0,
+            "End Time": 75.0,
+            "Job ID": 7
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 75.0,
+            "End Time": 88.0,
+            "Job ID": 7
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 88.0,
+            "End Time": 97.0,
+            "Job ID": 7
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 0.0,
+            "End Time": 1.0,
+            "Job ID": 8
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 1.0,
+            "End Time": 12.0,
+            "Job ID": 8
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 12.0,
+            "End Time": 16.0,
+            "Job ID": 8
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 16.0,
+            "End Time": 33.0,
+            "Job ID": 8
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 2.0,
+            "Start Time": 48.0,
+            "End Time": 49.0,
+            "Job ID": 8
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 53.0,
+            "End Time": 60.0,
+            "Job ID": 8
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 0.0,
+            "End Time": 4.0,
+            "Job ID": 9
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 16.0,
+            "End Time": 20.0,
+            "Job ID": 9
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 1.0,
+            "Start Time": 20.0,
+            "End Time": 30.0,
+            "Job ID": 9
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 0.0,
+            "Start Time": 35.0,
+            "End Time": 44.0,
+            "Job ID": 9
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 3.0,
+            "Start Time": 44.0,
+            "End Time": 59.0,
+            "Job ID": 9
+        },
+        {
+            "Status": 1.0,
+            "Machine ID": 4.0,
+            "Start Time": 61.0,
+            "End Time": 62.0,
+            "Job ID": 9
+        }
+    ]
+}
