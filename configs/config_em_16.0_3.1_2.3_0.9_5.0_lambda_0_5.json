@@ -8,9 +8,9 @@
     "show_mode": "print",
     "valid_batch_size": 100,
     "machine_emission_rates": [
-      0.3,
-      1.2,
-      3.0,
+      16.0,
+      3.1,
+      2.3,
       0.9,
       5.0
     ]

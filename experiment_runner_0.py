@@ -126,44 +126,31 @@ def main(mode: str, lam: float):
                 log(f"⏩ [{tag}] models not ready, skip test.")
                 continue
 
-            timestamp_pattern = re.compile(r"test_gnn_\d{8}_\d{6}")
-            existing_gnn = any(timestamp_pattern.match(d.name) for d in tag_dir.glob("test_gnn_*"))
-            timestamp_pattern_llm = re.compile(r"test_llm_\d{8}_\d{6}")
-            existing_llm = any(timestamp_pattern_llm.match(d.name) for d in tag_dir.glob("test_llm_*"))
+            log(f"🧪 [{tag}] Testing GNN model...")
+            copy_models_for_test(cfg_path, gnn_model)
+            test_log_gnn = log_dir / "test_gnn.log"
+            try:
+                subprocess.run(["python", "test.py"],
+                               stdout=test_log_gnn.open("w"),
+                               stderr=subprocess.STDOUT,
+                               check=True)
+                log(f"🎯 [{tag}] GNN test completed")
+                copy_latest_test_results(to_dir=tag_dir, label="gnn")
+            except subprocess.CalledProcessError:
+                log(f"💥 [{tag}] GNN test failed, see {test_log_gnn}")
 
-            # GNN TEST
-            if not existing_gnn:
-                log(f"🧪 [{tag}] Testing GNN model...")
-                copy_models_for_test(cfg_path, gnn_model)
-                test_log_gnn = log_dir / "test_gnn.log"
-                try:
-                    subprocess.run(["python", "test.py"],
-                                   stdout=test_log_gnn.open("w"),
-                                   stderr=subprocess.STDOUT,
-                                   check=True)
-                    log(f"🎯 [{tag}] GNN test completed")
-                    copy_latest_test_results(to_dir=tag_dir, label="gnn")
-                except subprocess.CalledProcessError:
-                    log(f"💥 [{tag}] GNN test failed, see {test_log_gnn}")
-            else:
-                log(f"⏩ [{tag}] GNN test already exists, skipping...")
-
-            # LLM TEST
-            if not existing_llm:
-                log(f"🧪 [{tag}] Testing LLM model...")
-                copy_models_for_test(cfg_path, llm_model)
-                test_log_llm = log_dir / "test_llm.log"
-                try:
-                    subprocess.run(["python", "test.py"],
-                                   stdout=test_log_llm.open("w"),
-                                   stderr=subprocess.STDOUT,
-                                   check=True)
-                    log(f"🎯 [{tag}] LLM test completed")
-                    copy_latest_test_results(to_dir=tag_dir, label="llm")
-                except subprocess.CalledProcessError:
-                    log(f"💥 [{tag}] LLM test failed, see {test_log_llm}")
-            else:
-                log(f"⏩ [{tag}] LLM test already exists, skipping...")
+            log(f"🧪 [{tag}] Testing LLM model...")
+            copy_models_for_test(cfg_path, llm_model)
+            test_log_llm = log_dir / "test_llm.log"
+            try:
+                subprocess.run(["python", "test.py"],
+                               stdout=test_log_llm.open("w"),
+                               stderr=subprocess.STDOUT,
+                               check=True)
+                log(f"🎯 [{tag}] LLM test completed")
+                copy_latest_test_results(to_dir=tag_dir, label="llm")
+            except subprocess.CalledProcessError:
+                log(f"💥 [{tag}] LLM test failed, see {test_log_llm}")
 
         runner_log_file.close()
 

@@ -8,11 +8,11 @@
     "show_mode": "print",
     "valid_batch_size": 100,
     "machine_emission_rates": [
-      0.3,
-      1.2,
-      3.0,
-      0.9,
-      5.0
+      0.2,
+      3.2,
+      2.8,
+      1.6,
+      0.9
     ]
   },
   "model_paras": {
